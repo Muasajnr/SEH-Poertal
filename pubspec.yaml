@@ -1,0 +1,40 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Add webview_flutter package for WebView functionality
+  webview_flutter: ^4.0.0  # Ensure you are using the latest version available
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/ic_launcher-66daf3f2bd8e3/android/ic_launcher-web.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment this if you have images or other assets
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
